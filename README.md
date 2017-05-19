@@ -2,7 +2,7 @@
 
 ```rust
 
-extern crate huffman;
+extern crate huffman_rs;
 
 fn main() {
 
