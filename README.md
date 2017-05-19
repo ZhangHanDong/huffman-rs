@@ -1,8 +1,19 @@
 # Usage:
 
+Cargo.toml:
+
+```
+[dependencies]
+huffman_rs = "0.1.0"
+```
+
+
 ```rust
 
 extern crate huffman_rs;
+
+use huffman_rs::huffman::huffman_encoder::HuffmanEncoder;
+use huffman_rs::huffman::huffman_decoder::HuffmanDecoder;
 
 fn main() {
 
